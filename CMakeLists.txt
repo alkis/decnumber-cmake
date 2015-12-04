@@ -69,5 +69,5 @@ set_target_properties(decnumber_static
       decnumber)
 
 install(FILES ${decnumber_HEADERS}
-        DESTINATION include/${PROJECT_NAME}
+        DESTINATION include
         COMPONENT headers)
